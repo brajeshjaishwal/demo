@@ -1,14 +1,41 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "GetInfo": {
+    "incidentCount": 1,
+    "alertCount": 1,
+    "licenseCount": 0,
+    "userCount": 0,
+    "licenseCost": 20000.0,
+    "score": 80,
+    "admin": "Company",
+    "category": "Company resources HW/SW",
+    "mobilePhone": "415-100-1000",
+    "workPhone": "415-111-9999"
+  },
+  "GetApps": [
+      {
+        "id": 21,
+        "appId": "datacenter",
+        "appName": "Data Center",
+        "isUp": true,
+        "isActive": true,
+        "isMaster": true,
+        "searchTerm": "Data Center"
+      }
+    ],
+  "GetLiveTileData": [
+    {
+      "id": 21,
+      "appId": 21,
+      "incidents": 20,
+      "licenses": 10000,
+      "costs": 4000,
+      "alerts": 100
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "GetVMInfo": {
+
+  },
+  "GetServiceInfo": { 
+
   }
 }
